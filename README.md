@@ -9,8 +9,6 @@ The Passport service provider registers its own database migration directory wit
 
 `php artisan migrate`
 
-This will generate the necessary encryption keys required for the creation of secure access tokens. Additionally, the command will establish "personal access" and "password grant" clients crucial for the generation of access tokens:
-`php artisan sanctum:install`
 ### Test
 Third step run the phpunit test command
 `./vendor/bin/phpunit`
