@@ -3,8 +3,10 @@
 ##### First step
 
  `composer install` 
+ ##### Second step
+Set up the database connection
 
-##### Second step
+##### Third step
 `php artisan migrate`
 
 ### Test
